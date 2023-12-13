@@ -1,6 +1,6 @@
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&family=Ubuntu:wght@300;400;700&display=swap');
+  
 
 
 *{
@@ -67,18 +67,18 @@ transition: 0.4s
 .mobile-nav{
   display: inline-block;
   display: block;
-  background-color: green;
+  background-color: rgb(54, 105, 54);
   position: fixed;
 
-  left: 100%;
+  right: 100%;
   margin: 0 auto;
-  width: 100%;
-  padding: 40px;
+  width: 65%;
+  height: 100vh;
 }
 
 .mobile-nav a{
   display:block;
-  padding-top: 10px;
+  padding-top: 25px;
   margin-top: 10px;
 text-align: center;
 color: #fff;
@@ -89,7 +89,7 @@ transition: all 0.3s ease-in-out;
 
 .mobile-nav.is-active{
   left: 0;
-transition: 0.4s
+transition: 0.4s;
 }
 
 .mobile-nav a:hover{
@@ -289,6 +289,7 @@ a:focus {
     box-sizing: border-box;
     border-radius: 5px;
     border: 2px solid;
+    
   }
 
   .cardsh4{
